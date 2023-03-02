@@ -1,0 +1,79 @@
+p {
+    margin: 10px;
+}
+
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+body {
+    background-color: #CECECC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: poppins, serif;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 4px 3px 7px #555;
+}
+
+.title-card {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.style-icones {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.icones-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.style-card-exp {
+    display: flex;
+    flex-direction: row;
+}
+
+.style-para-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.date-style-card {
+    width: 86px;
+    display: flex;
+    justify-content: end;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.date-style-card-form {
+    width: 130px;
+    display: flex;
+    justify-content: end;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.title-date-style-card {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
